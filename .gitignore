@@ -1,0 +1,4 @@
+*.spec
+__pycashe__/
+build/
+dist/
