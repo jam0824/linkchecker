@@ -7,8 +7,8 @@
 ご自身の責任で使用してください。  
   
 # 使い方
-linkchecker.zipがあるところまで移動して、zipを解凍してください。  
-その後以下のコマンドで確認できます。  
+まずはlinkchecker.zipを解凍してください。  
+その後コマンドプロンプトなどから、linkchecker.zipを解凍したところまで移動して以下のコマンドを実行します。  
 (windowsのみ。macの実行ファイルは作っていません)   
 
 `./linkchecker.exe 調査したいURL`  
@@ -19,5 +19,5 @@ linkchecker.zipがあるところまで移動して、zipを解凍してくだ�
 # pythonから使う場合
 requestsとBeautifulSoup4をインストールする必要があります。 
 
-`pip install requests`
-`pip install beautifulsoup4`
+`pip install requests`  
+`pip install beautifulsoup4`  
