@@ -15,3 +15,9 @@ linkchecker.zipがあるところまで移動して、zipを解凍してくだ�
   
 # 例
 `./linkchecker.exe https://www.testerchan.work/`
+
+# pythonから使う場合
+requestsとBeautifulSoup4をインストールする必要があります。 
+
+`pip install requests`
+`pip install beautifulsoup4`

@@ -21,7 +21,8 @@ class Test_LinkChecker(unittest.TestCase):
         page_info = lc.get_page_info('https://www.testerchan.work/')
         list_url = lc.get_list_url(page_info.url, page_info.text)
         list_error = lc.check_url_status(list_url)
-        print(list_error)
+        self.assertEqual(3, len(list_error))
+        self.assertEqual('https://www.amazon.co.jp/gp/product/B07CJTF8FP/ref=series_rw_dp_sw', list_error[0]['url'])
 
 if __name__ == '__main__':
     unittest.main()
