@@ -20,6 +20,7 @@ class Test_LinkChecker(unittest.TestCase):
         list_url = lc.get_list_url('https://testerchan.hatenadiary.com', html)
         #print(list_url)
         self.assertIn('https://testerchan.hatenadiary.com/foo.html',list_url)
+        self.assertIn('https://testerchan.hatenadiary.com/bar.html',list_url)
 
     def test_get_list_url_URLでNoneが含まれていないか確認(self):
         lc = classlinkchecker.LinkChecker()
